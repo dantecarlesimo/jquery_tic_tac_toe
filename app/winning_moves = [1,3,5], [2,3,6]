@@ -1,0 +1,12 @@
+winning_moves = [1,3,5], [2,3,6]
+
+
+winningmove in winning_moves
+  if board[winningmove[0]] === board[winningmove[1]] === board[winningmove[2]]
+    console.log winner is [winningmove[0]]
+end
+
+iterate over all winning moves
+ check board cell value board[something] where something an array value from a winning combo pair
+ if all 3 board cells ,  match winning combo alert winner
+ 
